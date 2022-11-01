@@ -9,7 +9,7 @@ const iframe = document.querySelector('iframe');
         localStorage.setItem("videoplayer-current-time", seconds)
         console.log('videoplayer-current-time', seconds);
  
-    }),1000);
+    }, 1000));
 
     const onPlay = Number(localStorage.getItem("videoplayer-current-time"))
     if (onPlay) {
